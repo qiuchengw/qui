@@ -1,0 +1,55 @@
+#pragma once
+
+// 
+// 使用 cmd命令 dir /B *.cpp > support_.h生成文件名列表
+// 使用手动列编辑，生成最终文件
+
+// 编译进lib工程，lib需要引用此文件，否则lib链接到exe的时候，这些behavior是不可用的
+// 因为lib链接到exe的时候，这些behavior的全局变量会被trip掉
+
+#include "behavior_accesskeys.cpp"
+#include "behavior_actions.cpp"
+#include "behavior_border_flasher.cpp"
+#include "behavior_chart.cpp"
+#include "behavior_clock.cpp"
+#include "behavior_clock2.cpp"
+#include "behavior_clock_graphin.cpp"
+#include "behavior_collapsible_by_icon.cpp"
+#include "behavior_colorpicker.cpp"
+#include "behavior_command.cpp"
+#include "behavior_editable_select.cpp"
+#include "behavior_eximg.cpp"
+#include "behavior_expandable_list.cpp"
+#include "behavior_fontname.cpp"
+#include "behavior_font_size.cpp"
+#include "behavior_form.cpp"
+#include "behavior_grid.cpp"
+#include "behavior_gridselect.cpp"
+#include "behavior_gripper.cpp"
+#include "behavior_hover.cpp"
+#include "behavior_hyperlink.cpp"
+#include "behavior_inactiveprogress.cpp"
+#include "behavior_lb_dialog.cpp"
+#include "behavior_mouse_updown_capture.cpp"
+#include "behavior_pagenav.cpp"
+#include "behavior_path.cpp"
+#include "behavior_popup.cpp"
+#include "behavior_rtc_current_objects.cpp"
+#include "behavior_scroller.cpp"
+#include "behavior_scroll_indicator.cpp"
+#include "behavior_scrol_buddy.cpp"
+#include "behavior_select_buddy.cpp"
+#include "behavior_select_checkmark.cpp"
+//#include "behavior_shellctrl.cpp"
+#include "behavior_shellicon.cpp"
+#include "behavior_sizer.cpp"
+#include "behavior_splitter.cpp"
+#include "behavior_star.cpp"
+#include "behavior_tabs.cpp"
+#include "behavior_tooltip.cpp"
+#include "behavior_virtual_grid.cpp"
+#include "behavior_xprogress.cpp"
+#include "behavior_xtime.cpp"
+#include "behavior_wordinput.cpp"
+#include "data_source_behavior.cpp"
+
