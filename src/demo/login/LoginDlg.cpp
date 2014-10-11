@@ -27,6 +27,7 @@ BOOL LoginDlg::OnDefaultButton( INT_PTR nBtn )
 	if (IDOK != nBtn)
 		return TRUE;
 
+    return FALSE;
 }
 
 void LoginDlg::OnConnectedToServer( LPARAM p )
