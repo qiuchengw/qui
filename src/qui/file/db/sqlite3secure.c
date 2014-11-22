@@ -5,10 +5,6 @@
 #define sqlite3_open_v2 sqlite3_open_v2_internal
 #endif
 
-#ifndef _SQLITE3_H_
-#include "sqlite3.c"
-#endif
-
 #ifdef SQLITE_ENABLE_EXTFUNC
 #undef sqlite3_open
 #undef sqlite3_open16
@@ -46,10 +42,6 @@ void mySqlite3PagerSetCodec(
 ){
   sqlite3PagerSetCodec(pPager, xCodec, xCodecSizeChng, xCodecFree, pCodec);
 }
-
-#include "../../crypt/rijndael.h"
-#include "codec.c"
-#include "codecext.c"
 
 #endif
 

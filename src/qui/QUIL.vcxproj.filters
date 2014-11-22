@@ -20,6 +20,9 @@
     <Filter Include="ui\browser">
       <UniqueIdentifier>{38e50dbd-d837-48c4-a53f-8c2a7aabab8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="file\db">
+      <UniqueIdentifier>{70cb8bbf-b767-4aea-a342-fe76cd9767c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="file\inifile.cpp">
@@ -103,6 +106,15 @@
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="file\TextFile.cpp">
       <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="file\db\codec.c">
+      <Filter>file\db</Filter>
+    </ClCompile>
+    <ClCompile Include="file\db\wxsqlite3.cpp">
+      <Filter>file\db</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\rijndael.c">
+      <Filter>crypt</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -238,8 +250,26 @@
     <ClInclude Include="file\TextFile.h">
       <Filter>file</Filter>
     </ClInclude>
+    <ClInclude Include="file\db\codec.h">
+      <Filter>file\db</Filter>
+    </ClInclude>
+    <ClInclude Include="file\db\QDBMgr.h">
+      <Filter>file\db</Filter>
+    </ClInclude>
+    <ClInclude Include="file\db\sqlite3.h">
+      <Filter>file\db</Filter>
+    </ClInclude>
+    <ClInclude Include="file\db\sqlite3ext.h">
+      <Filter>file\db</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt\rijndael.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="tree.hh" />
+    <None Include="file\db\sqlite3.def">
+      <Filter>file\db</Filter>
+    </None>
   </ItemGroup>
 </Project>

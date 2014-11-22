@@ -38,6 +38,7 @@
  */
 
 #include "codec.h"
+#include "sqlite3.h"
 
 #if CODEC_TYPE == CODEC_TYPE_AES256
 #include "sha2.h"
@@ -713,3 +714,5 @@ CodecDecrypt(Codec* codec, int page, unsigned char* data, int len)
   CodecAES(codec, page, 0, codec->m_readKey, data, len, data);
 }
 
+#include "codecext.c"
+#include "sqlite3secure.c"

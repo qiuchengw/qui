@@ -147,6 +147,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="crypt\QDataEnDe.cpp" />
+    <ClCompile Include="crypt\rijndael.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="crypt\XUnzip.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">NotUsing</PrecompiledHeader>
@@ -156,6 +159,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="crypt\zlibdata.cpp" />
+    <ClCompile Include="file\db\codec.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="file\db\wxsqlite3.cpp" />
     <ClCompile Include="file\inifile.cpp" />
     <ClCompile Include="file\QFile.cpp" />
     <ClCompile Include="file\TextFile.cpp" />
@@ -195,11 +202,16 @@
     <ClInclude Include="crypt\CXUnzip.h" />
     <ClInclude Include="crypt\md5.h" />
     <ClInclude Include="crypt\QDataEnDe.h" />
+    <ClInclude Include="crypt\rijndael.h" />
     <ClInclude Include="crypt\unzip.h" />
     <ClInclude Include="crypt\XUnzip.h" />
     <ClInclude Include="crypt\XZip.h" />
     <ClInclude Include="crypt\zip.h" />
     <ClInclude Include="crypt\zlibdata.h" />
+    <ClInclude Include="file\db\codec.h" />
+    <ClInclude Include="file\db\QDBMgr.h" />
+    <ClInclude Include="file\db\sqlite3.h" />
+    <ClInclude Include="file\db\sqlite3ext.h" />
     <ClInclude Include="file\inifile.h" />
     <ClInclude Include="file\QFile.h" />
     <ClInclude Include="file\TextFile.h" />
@@ -235,6 +247,7 @@
     <ClInclude Include="XTrace.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="file\db\sqlite3.def" />
     <None Include="tree.hh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

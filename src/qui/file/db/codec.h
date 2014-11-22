@@ -38,8 +38,11 @@ extern "C" {
 #endif
 
 #include "../../crypt/rijndael.h"
+
+
 #ifndef _SQLITE3_H_
 #include "sqlite3.c"
+#define _SQLITE3_H_
 #endif
 
 #define CODEC_TYPE_AES128 1

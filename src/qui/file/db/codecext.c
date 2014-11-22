@@ -1,7 +1,7 @@
 #ifndef SQLITE_OMIT_DISKIO
 #ifdef SQLITE_HAS_CODEC
 
-#include "codec.h"
+// #include "codec.h"
 
 void sqlite3_activate_see(const char *info)
 {

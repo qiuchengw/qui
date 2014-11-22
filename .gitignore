@@ -13,6 +13,8 @@
 *.idb
 *.res
 *.log	
+*.lib
+*.pch
 *.ipch
 Debug
 Release
