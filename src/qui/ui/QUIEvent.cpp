@@ -530,10 +530,10 @@ QUI_PEVENT QUIEventEntry::MapCodeHanlder::GetHandlerOfElment( __in HELEMENT he, 
     // 检查这个DOM对象id对应的是否有此代码处理器
     QUI_PEVENT pHandler = NULL;
     dom::element el(he);
-#ifdef _DEBUG
-    // 只是为了方便观察元素到底是谁
-    json::astring shtml = el.get_html(true);
-#endif
+// #ifdef _DEBUG
+//     // 只是为了方便观察元素到底是谁
+//     json::astring shtml = el.get_html(true);
+// #endif
     LPCWSTR pszAtti = el.get_attribute("id");
     if ( NULL != pszAtti )
     {

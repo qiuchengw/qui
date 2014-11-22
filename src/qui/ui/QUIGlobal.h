@@ -48,7 +48,7 @@ inline HINSTANCE QUIGetInstance();
 inline HINSTANCE QUIGetResourceInstance();
 
 // 获取版本号
-inline LPCWSTR QUIGetAppVersion();
+inline CStdString QUIGetAppVersion();
 
 // 应用程序消息相关的消息
 inline LRESULT QUISendCodeTo( HWND hWnd, int nCode, LPARAM lParam)

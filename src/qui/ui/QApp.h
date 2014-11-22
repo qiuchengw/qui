@@ -57,9 +57,9 @@ public:
     }
 	
     // 重写此函数，提供版本号功能
-    virtual LPCWSTR GetAppVersion()const 
+    virtual CStdString GetAppVersion()const 
     { 
-        return L"0"; 
+        return L"0.0"; 
     }
 
     // 保存和恢复主窗口位置
@@ -116,7 +116,7 @@ inline HINSTANCE QUIGetInstance()
     return QUIGetApp()->GetModuleInstance();
 }
 
-inline LPCWSTR QUIGetAppVersion()
+inline CStdString QUIGetAppVersion()
 {
     return QUIGetApp()->GetAppVersion();
 }

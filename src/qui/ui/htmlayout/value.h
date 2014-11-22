@@ -293,11 +293,7 @@ EXTERN_C UINT VALAPI ValueInvoke( VALUE* pval, VALUE* pthis, UINT argc, const VA
   namespace json
   {
 
-    inline void str_copy(char* dst,const char* src, unsigned n ) 
-    { 
-        dst && src? strncpy_s(dst, n, src,n):0; 
-    }
-
+    inline void str_copy(char* dst,const char* src, unsigned n ) { dst && src? strncpy(dst,src,n):0; }
     inline void str_copy(wchar_t* dst,const wchar_t* src, unsigned n ) { dst && src? wcsncpy(dst,src,n):0; }
     inline int  str_length(const char* src ) { return src? strlen(src):0; }
     inline int  str_length(const wchar_t* src ) { return src? wcslen(src):0; }

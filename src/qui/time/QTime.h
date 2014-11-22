@@ -1,3 +1,7 @@
+#ifndef QTime_h__
+#define QTime_h__
+
+
 #pragma once
 
 // // #include "QUI.h"
@@ -217,3 +221,5 @@ protected:
 	void CheckRange();	
 	BOOL ConvertSystemTimeToVariantTime(__in const SYSTEMTIME& systimeSrc);
 };
+
+#endif // QTime_h__
