@@ -1,0 +1,42 @@
+﻿生成启动时间为 2014/12/1 9:26:45。
+     1>项目“F:\Code\VC\uibase-g\deps\zlib\zlib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS2013\VC\bin\CL.exe /c /I"d:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ZLIB_DLL /D ZLIB_EXPORTS /D ZLIB_INTERNAL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\build\mt\\" /Fd"..\build\mt\vc120.pdb" /Gd /TC /wd4996 /wd4224 /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c gzio.c infback.c inffast.c inflate.c inftrees.c minigzip.c trees.c uncompr.c "zlib-dllversion.c" zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         minigzip.c
+         trees.c
+         uncompr.c
+         zlib-dllversion.c
+         zutil.c
+       Link:
+         D:\Program Files\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\lib\\zlib.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"d:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\lib\zlib.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\zlib.lib" /MACHINE:X86 /SAFESEH /DLL ..\build\mt\adler32.obj
+         ..\build\mt\compress.obj
+         ..\build\mt\crc32.obj
+         ..\build\mt\deflate.obj
+         ..\build\mt\gzio.obj
+         ..\build\mt\infback.obj
+         ..\build\mt\inffast.obj
+         ..\build\mt\inflate.obj
+         ..\build\mt\inftrees.obj
+         ..\build\mt\minigzip.obj
+         ..\build\mt\trees.obj
+         ..\build\mt\uncompr.obj
+         "..\build\mt\zlib-dllversion.obj"
+         ..\build\mt\zutil.obj
+            正在创建库 ..\lib\zlib.lib 和对象 ..\lib\zlib.exp
+         正在生成代码
+         已完成代码的生成
+         zlib.vcxproj -> F:\Code\VC\uibase-g\deps\zlib\..\lib\zlib.dll
+     1>已完成生成项目“F:\Code\VC\uibase-g\deps\zlib\zlib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.79

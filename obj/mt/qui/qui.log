@@ -1,0 +1,13 @@
+﻿生成启动时间为 2015/3/12 19:25:47。
+     1>项目“E:\Code\VC\uibase-g\src\qui.vcxproj”在节点 2 上(Build 个目标)。
+     1>Lib:
+         qui.vcxproj -> E:\Code\VC\uibase-g\src\..\bin\mt\qui.lib
+       PostBuildEvent:
+         copy E:\Code\VC\uibase-g\src\..\bin\mt\qui.lib E:\Code\VC\uibase-g\src\..\lib\qui.lib
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“E:\Code\VC\uibase-g\src\qui.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.12

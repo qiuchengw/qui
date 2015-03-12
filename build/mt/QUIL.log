@@ -1,0 +1,105 @@
+﻿生成启动时间为 2014/12/6 9:14:09。
+     1>项目“F:\Code\VC\uibase-g\src\qui\QUIL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS2013\VC\bin\CL.exe /c /I"d:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D QUI_NOT_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\build\mt\\" /Fd"..\..\build\mt\vc120.pdb" /Gd /TP /wd4995 /wd4244 /wd4018 /analyze- /errorReport:prompt AppHelper.cpp QUI.cpp ui\ECtrl.cpp ui\QApp.cpp ui\QDialog.cpp ui\QForm.cpp ui\QFrame.cpp ui\QSkinUI.cpp ui\QUIEvent.cpp ui\QUIMgr.cpp ui\QView.cpp ui\WndHelper.cpp ui\browser\WebBrowser.cpp
+         AppHelper.cpp
+     1>f:\code\vc\uibase-g\src\qui\stdstring.h(1682): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>f:\code\vc\uibase-g\src\qui\stdstring.h(1686): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         QUI.cpp
+         ECtrl.cpp
+     1>F:\Code\VC\uibase-g\src\qui\stdstring.h(1682): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>F:\Code\VC\uibase-g\src\qui\stdstring.h(1686): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         QApp.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+     1>F:\Code\VC\uibase-g\src\qui\stdstring.h(1682): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>F:\Code\VC\uibase-g\src\qui\stdstring.h(1686): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         QDialog.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+         QForm.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+         QFrame.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+         QSkinUI.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+         QUIEvent.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+         QUIMgr.cpp
+         QView.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+         WndHelper.cpp
+     1>F:\Code\VC\uibase-g\src\qui\stdstring.h(1682): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>F:\Code\VC\uibase-g\src\qui\stdstring.h(1686): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WebBrowser.cpp
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\code\vc\uibase-g\src\qui\ui\htmlayout\value.h(297): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VS2013\VC\include\string.h(323) : 参见“wcsncpy”的声明
+       Lib:
+         D:\Program Files\VS2013\VC\bin\Lib.exe /OUT:"..\..\lib\quil_mt.lib" /LIBPATH:"d:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO /LTCG ..\..\build\mt\AppHelper.obj
+         ..\..\build\mt\crijndael.obj
+         ..\..\build\mt\CXUnzip.obj
+         ..\..\build\mt\md5.obj
+         ..\..\build\mt\QDataEnDe.obj
+         ..\..\build\mt\rijndael.obj
+         ..\..\build\mt\XUnzip.obj
+         ..\..\build\mt\XZip.obj
+         ..\..\build\mt\zlibdata.obj
+         ..\..\build\mt\codec.obj
+         ..\..\build\mt\wxsqlite3.obj
+         ..\..\build\mt\inifile.obj
+         ..\..\build\mt\QFile.obj
+         ..\..\build\mt\TextFile.obj
+         ..\..\build\mt\QBuffer.obj
+         ..\..\build\mt\QUI.obj
+         ..\..\build\mt\stdafx.obj
+         ..\..\build\mt\QTime.obj
+         ..\..\build\mt\WebBrowser.obj
+         ..\..\build\mt\WebPage.obj
+         ..\..\build\mt\WebUIController.obj
+         ..\..\build\mt\ECtrl.obj
+         ..\..\build\mt\QApp.obj
+         ..\..\build\mt\QConfig.obj
+         ..\..\build\mt\QDialog.obj
+         ..\..\build\mt\QForm.obj
+         ..\..\build\mt\QFrame.obj
+         ..\..\build\mt\QSkinUI.obj
+         ..\..\build\mt\QUIEvent.obj
+         ..\..\build\mt\QUIMgr.obj
+         ..\..\build\mt\QView.obj
+         ..\..\build\mt\WndHelper.obj
+         ..\..\build\mt\WndShadow.obj
+         QUIL.vcxproj -> F:\Code\VC\uibase-g\src\qui\..\..\lib\quil_mt.lib
+     1>已完成生成项目“F:\Code\VC\uibase-g\src\qui\QUIL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.22

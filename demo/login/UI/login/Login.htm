@@ -1,0 +1,52 @@
+﻿<html>
+	<head>
+		<style type="text/css">
+			body{
+				background-image:url(qabs:bk/201.jpg) no-repeat;
+			}
+			#wc-caption{
+				background-color:#FFFFFF #FFFFFF #EEF2F5 #EEF2F5;
+				height:30px;
+				border-bottom:1px solid #D8D9DB;
+				font-family:"微软雅黑"; 
+				text-align:center;
+				vertical-align:middle;
+				line-height:28px;
+				padding:2 4px;
+				opacity:0.5;
+			}
+			input{
+				outline:glow #79E0DE 1 1px;
+				height:24px;
+				width:*;
+			}
+			input:hover{
+				outline:glow #79E0DE 3 3px;
+			}
+			
+			input:focus{
+				outline:glow #E97C52 3 3px;
+			}
+			
+		</style>
+	</head>
+	<body #wc-top style="width:400px;height:280px;">
+		<div #wc-caption>
+			<div #wc-title>Login</div>
+		</div>
+		<table style="margin:* 10px;width:*;border-spacing:10px;">
+			<tr>
+				<td style="width:60px;">姓名：</td><td colspan=3><input type="text" id="TXT-NAME" maxlength=10 novalue="输入真实姓名..." /></td>
+			</tr>
+			<tr>
+				<td>密码：</td><td colspan=3><input type="password" id="TXT-PSWD" maxlength=12  novalue="输入密码..." /></td>
+			</tr>
+			<tr >
+				<td />
+				<td style="padding-top:18px;"><widget type="checkbox" id="CHK-REMEBER">记住密码</widget></td>
+				<td style="padding-top:18px;"><div .color_button .blue xrole="OK">登录系统</div></td>
+				<td style="padding-top:18px;width:50px;"><div .color_button .orange xrole="Cancel">取消</div></td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+﻿生成启动时间为 2014/12/6 9:13:47。
+     1>项目“F:\Code\VC\uibase-g\src\qui\QUIL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS2013\VC\bin\CL.exe /c /I"d:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D QUI_NOT_DLL /D WXSQLITE3_HAVE_CODEC /D SQLITE_HAS_CODEC /D QUI_LIBPRJ /D UIBASE_SUPPORT_WEBBROWSER /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"..\..\build\mtd\QUIL\quil_mtd.pch" /Fo"..\..\build\mtd\QUIL\\" /Fd"..\..\build\mtd\QUIL\vc120.pdb" /Gd /TP /wd4995 /analyze- /errorReport:prompt AppHelper.cpp QUI.cpp ui\ECtrl.cpp ui\QApp.cpp ui\QDialog.cpp ui\QForm.cpp ui\QFrame.cpp ui\QSkinUI.cpp ui\QUIEvent.cpp ui\QUIMgr.cpp ui\QView.cpp
+         QView.cpp
+         QUIMgr.cpp
+         QUIEvent.cpp
+         QSkinUI.cpp
+         QFrame.cpp
+         QForm.cpp
+     1>已完成生成项目“F:\Code\VC\uibase-g\src\qui\QUIL.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.48
