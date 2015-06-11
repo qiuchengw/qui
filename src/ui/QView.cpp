@@ -627,6 +627,9 @@ LRESULT QView::OnCreate( LPCREATESTRUCT lpcs )
 	// all not handled HTML DOM events will go here
 	SetEventHandler(this); 
 
+    // 在xp系统下让字体显示平滑点，使用clear type方式！
+    HTMLayoutSetOption(GetSafeHwnd(), HTMLAYOUT_FONT_SMOOTHING, 3);
+    
 	// 加载html皮肤
 	if ( !OnLoadHtml() )
 	{

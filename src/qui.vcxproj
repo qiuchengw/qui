@@ -48,7 +48,7 @@
     <IncludePath>.;..\..\deps\wtl;..\..\deps;$(IncludePath)</IncludePath>
     <OutDir>$(MyLibDir)\</OutDir>
     <IntDir>$(MyIntDir)\</IntDir>
-    <TargetName>quil_mtd</TargetName>
+    <TargetName>qui_mtd</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='mt|Win32'">
     <IncludePath>.;..\..\deps\wtl;..\..\deps;$(IncludePath)</IncludePath>
