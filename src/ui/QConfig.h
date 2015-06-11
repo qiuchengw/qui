@@ -20,7 +20,8 @@ public:
     QTime GetTimeValue(LPCWSTR sSection,LPCWSTR sKey);
 
     void SetValue(LPCWSTR sSection,LPCWSTR sKey,LPCWSTR sValue);
-	void SetValue(LPCWSTR sSection,LPCWSTR sKey,int nVal);
+    void SetValue(LPCWSTR sSection, LPCWSTR sKey, int nVal);
+    void RemoveKey(LPCWSTR sSection, LPCWSTR sKey);
 
 	CStdString GetSettingValue(LPCWSTR szKey);
 

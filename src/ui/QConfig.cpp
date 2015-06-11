@@ -55,6 +55,12 @@ QTime QConfig::GetTimeValue( LPCWSTR sSection,LPCWSTR sKey )
     return _wtof(GetValue(sSection, sKey));
 }
 
+void QConfig::RemoveKey(LPCWSTR sSection, LPCWSTR sKey)
+{
+    // TODO: 底层暂时不支持！
+
+}
+
 //////////////////////////////////////////////////////////////////////////
 // 全局唯一实例
 QUIConfig *_theConfig = NULL;

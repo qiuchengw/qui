@@ -3901,6 +3901,22 @@ public:
 	#endif
 
 #endif
+
+        template<typename T>
+        static MYTYPE number(T n, const CT* fmt)
+        {
+            MYTYPE r;  r.Format(fmt, n);  return r;
+        }
+
+        static MYTYPE number(int n)
+        {
+            MYTYPE r;  r.Format(L"%d", n);  return r;
+        }
+
+        static MYTYPE number(double n)
+        {
+            MYTYPE r;  r.Format(L"%lf", n);  return r;
+        }
 };
 
 // -----------------------------------------------------------------------------
