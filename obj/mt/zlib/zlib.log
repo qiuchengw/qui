@@ -1,13 +1,1 @@
-﻿生成启动时间为 2015/3/12 19:25:46。
-     1>项目“E:\Code\VC\uibase-g\deps\zlib\zlib.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
-         zlib.vcxproj -> E:\Code\VC\uibase-g\src\..\bin\mt\zlib.dll
-       PostBuildEvent:
-         copy E:\Code\VC\uibase-g\src\..\bin\mt\zlib.lib E:\Code\VC\uibase-g\src\..\lib\zlib.lib
-         :VCEnd
-         已复制         1 个文件。
-     1>已完成生成项目“E:\Code\VC\uibase-g\deps\zlib\zlib.vcxproj”(Build 个目标)的操作。
-
-生成成功。
-
-已用时间 00:00:00.07
+﻿  zlib.vcxproj -> E:\Code\VC\uibase-g\src\..\bin\mt\zlib.dll

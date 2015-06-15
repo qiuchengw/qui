@@ -12,7 +12,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <PostBuildEvent>
-      <Command>copy $(OutDir)$(TargetName).lib $(MyLibDir)$(TargetName).lib</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <Link />
     <ClCompile>
