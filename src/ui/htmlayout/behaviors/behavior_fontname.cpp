@@ -18,10 +18,9 @@ static std::vector<std::wstring>  sg_vFontNames;
 int CALLBACK xEnumFontsProc(LPLOGFONT lplf,LPTEXTMETRIC lptm,
 	DWORD  dwStyle, LONG lParam) 
 { 
-	if (
-		(L'@' != *(lplf->lfFaceName)) &&
-		(std::wstring(lplf->lfFaceName).length() <= 8) && 
-		(std::find(sg_vFontNames.begin(),sg_vFontNames.end(),lplf->lfFaceName) == sg_vFontNames.end())
+	if ( (L'@' != *(lplf->lfFaceName)) 
+        &&  (std::wstring(lplf->lfFaceName).length() <= 8)
+		&&  (std::find(sg_vFontNames.begin(),sg_vFontNames.end(),lplf->lfFaceName) == sg_vFontNames.end())
 		)
 	{
 		sg_vFontNames.push_back(lplf->lfFaceName);
@@ -45,11 +44,12 @@ struct xfontfamily: public behavior
 					return true;
 				if (sg_vFontNames.empty())
 				{
-					HDC hDC = ::GetDC(NULL);
 					LOGFONT lf;
 					lf.lfFaceName[0] = L'\0';
 					lf.lfCharSet = DEFAULT_CHARSET/*ANSI_CHARSET*/;
-					EnumFontFamiliesEx(hDC,&lf,(FONTENUMPROC)xEnumFontsProc,NULL,0);
+                    
+                    HDC hDC = ::GetDC(NULL);
+                    EnumFontFamiliesEx(hDC, &lf, (FONTENUMPROC)xEnumFontsProc, NULL, 0);
 					::ReleaseDC(NULL,hDC);
 					sg_vFontNames.shrink_to_fit();
 				}

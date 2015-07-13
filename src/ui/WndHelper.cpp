@@ -419,14 +419,36 @@ namespace quibase
     //         return hWnd;
     //     }
 
+    // callback function called by EnumDisplayMonitors for each enabled monitor  
+    BOOL CALLBACK EnumDispProc(HMONITOR hMon, HDC dcMon, RECT* rc, LPARAM lParam)
+    {
+        std::map < HMONITOR, RECT > *pArg = (std::map < HMONITOR, RECT >*)(lParam);
+        pArg->insert({ hMon, *rc });
+        return TRUE;
+    }
 
+    BOOL GetMonitors(__out std::map<HMONITOR, RECT>& mons)
+    {
+        return EnumDisplayMonitors(0, 0, EnumDispProc, reinterpret_cast<LPARAM>(&mons));
+    }
 };
 
 //////////////////////////////////////////////////////////////////////////
 
 CAutoHideWnd::CAutoHideWnd()
 {
-    m_nScreenWidth = quibase::GetScreenSize().cx;
+    std::map<HMONITOR, RECT> mons;
+    if (quibase::GetMonitors(mons))
+    {
+        for (auto i : mons)
+        {
+            m_nScreenWidth = max(i.second.right, m_nScreenWidth);
+        }
+    }
+    else
+    {
+        m_nScreenWidth = quibase::GetScreenSize().cx;
+    }
     m_pCurAHW = nullptr;
 
     // create the queue timer

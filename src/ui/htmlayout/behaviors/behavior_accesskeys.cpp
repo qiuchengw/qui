@@ -205,8 +205,9 @@ struct accesskeys: public behavior
          case VK_SNAPSHOT    : strcat_s(buffer,20,"SNAPSHOT"); return buffer;       
          case VK_INSERT      : strcat_s(buffer,20,"INSERT"); return buffer;         
          case VK_DELETE      : strcat_s(buffer,20,"DELETE"); return buffer;         
-         case VK_HELP        : strcat_s(buffer,20,"HELP"); return buffer;           
-
+         case VK_HELP: strcat_s(buffer, 20, "HELP"); return buffer;
+         case VK_TAB:   strcat_s(buffer, 20, "TAB"); return buffer;
+         
          case VK_LWIN        : strcat_s(buffer,20,"LWIN"); return buffer;           
          case VK_RWIN        : strcat_s(buffer,20,"RWIN"); return buffer;           
          case VK_APPS        : strcat_s(buffer,20,"APPS"); return buffer;           
