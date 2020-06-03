@@ -42,8 +42,6 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">
-    <LibraryPath>..\..\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>.;..\..\deps\wtl;..\..\deps;$(IncludePath)</IncludePath>
     <OutDir>$(MyLibDir)\</OutDir>
     <IntDir>$(MyIntDir)\</IntDir>
   </PropertyGroup>
