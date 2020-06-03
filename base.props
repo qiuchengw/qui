@@ -4,7 +4,7 @@
   <PropertyGroup Label="UserMacros">
     <TopDir>$(SolutionDir)..\</TopDir>
     <MyIntDir>$(SolutionDir)..\obj\$(Configuration)\$(ProjectName)\</MyIntDir>
-    <MyOutDir>$(SolutionDir)..\bin\$(Configuration)</MyOutDir>
+    <MyOutDir>$(SolutionDir)..\lib\</MyOutDir>
     <MyLibDir>$(SolutionDir)..\lib\</MyLibDir>
     <MyDepsDir>$(SolutionDir)..\deps\</MyDepsDir>
     <MyIncDir>$(SolutionDir)..\include\</MyIncDir>
@@ -13,6 +13,8 @@
   <PropertyGroup>
     <OutDir>$(MyOutDir)\</OutDir>
     <IntDir>$(MyIntDir)\</IntDir>
+    <IncludePath>$(MyDepsDir)\zlib;$(MyDepsDir);$(MyDepsDir)\wtl;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MyLibDir);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <PostBuildEvent>

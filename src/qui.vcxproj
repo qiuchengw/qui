@@ -35,12 +35,10 @@
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\base.props" />
-    <Import Project="..\libcopy.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='mt|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\base.props" />
-    <Import Project="..\libcopy.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">
@@ -48,14 +46,8 @@
     <IncludePath>.;..\..\deps\wtl;..\..\deps;$(IncludePath)</IncludePath>
     <OutDir>$(MyLibDir)\</OutDir>
     <IntDir>$(MyIntDir)\</IntDir>
-    <TargetName>qui_mtd</TargetName>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='mt|Win32'">
-    <IncludePath>.;..\..\deps\wtl;..\..\deps;$(IncludePath)</IncludePath>
-    <LibraryPath>..\..\lib;$(LibraryPath)</LibraryPath>
-    <TargetName>$(ProjectName)</TargetName>
-    <OutDir>$(MyLibDir)\</OutDir>
-  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='mt|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='mtd|Win32'">
     <ClCompile>
       <PrecompiledHeader>Create</PrecompiledHeader>
